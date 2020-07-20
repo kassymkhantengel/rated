@@ -1,0 +1,58 @@
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+h1 {
+  font-size: 1.75em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+
+
+
+/* Simple Responsive Framework. */
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4{
+     border: 5px solid black;
+
+    padding: 10px;
+  background-color: gray;
+  height: 180px;
+  font-family: Helvetica;
+  font-size: 20px
+  color: black;
+    float: left;
+    width: 33.33%;
+  }
+  h2 {
+  border: 5px solid black;
+  font-size: 1.25em;
+  text-align: right;
+  width: 20%;
+}
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6{
+    float: left;
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+
